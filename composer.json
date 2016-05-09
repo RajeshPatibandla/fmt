@@ -1,0 +1,23 @@
+{
+    "name": "phpfmt/fmt",
+    "type": "application",
+    "description": "A script to automatically fix K&R and PSR-1/2 Coding Standard.",
+    "license": "BSD-3-Clause",
+    "keywords": ["language syntax", "formatter", "formatting", "psr1", "psr2", "coding", "style"],
+    "homepage": "https://github.com/phpfmt/fmt",
+    "bin": ["fmt.php","fmt.phar","aphpfmt"],
+    "authors": [
+        {
+            "name": "Carlos C",
+            "email": "carlos@cirello.eu"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/phpfmt/fmt/issues",
+        "source": "https://github.com/phpfmt/fmt"
+    },
+    "require":{
+        "php": ">=7.0.0",
+        "ext-tokenizer": "*"
+    }
+}
